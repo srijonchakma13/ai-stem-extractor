@@ -1,0 +1,22 @@
+# Exclude all media files (Crucial for privacy)
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.mkv
+
+# Exclude temporary processing directories
+temp/
+output/
+separated/
+/tmp/
+
+# Security & Environment Variables
+.env
+.env.local
+secrets.toml
+
+# Python Cache (Keeps the repo clean)
+__pycache__/
+*.py[cod]
+*$py.class
